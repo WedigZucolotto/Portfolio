@@ -1,14 +1,15 @@
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import * as S from "./style";
 
 export const Header = () => {
+  const navigate = useNavigate();
   return (
     <S.Header>
       <nav>
-          <Link to="/">Home</Link>
-          <Link to="/Team">Team</Link>
-          <Link to="/Contact">Contact</Link>
-          <Link to="/Projects">Projects</Link>
+        <button onClick={() => navigate("/")}>Home</button>
+        <button onClick={() => navigate("/Team")}>Team</button>
+        <button onClick={() => navigate("/Contact")}>Contact</button>
+        <button onClick={() => navigate("/Projects")}>Projects</button>
       </nav>
     </S.Header>
   );
