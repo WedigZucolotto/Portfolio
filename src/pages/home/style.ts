@@ -8,8 +8,8 @@ export const Home = styled.section`
 
   .left-section {
     color: white;
-    margin-left: 400px;
-    margin-bottom: 300px;
+    margin-left: 300px;
+    margin-bottom: 250px;
     font-size: 60px;
   }
 
@@ -96,7 +96,31 @@ export const Home = styled.section`
     color: #e99287;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   .right-section {
-    margin-right: 500px;
+    margin-right: 240px;
+    margin-bottom: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .what-we-do {
+    color: #12f7d6;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    position: relative;
+    left: 45px;
+  }
+
+  .specialists-in {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
   }
 `;
