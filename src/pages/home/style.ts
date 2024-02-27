@@ -4,12 +4,12 @@ export const Home = styled.section`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
 
   .left-section {
     color: white;
     margin-left: 300px;
-    margin-bottom: 250px;
+    margin-bottom: 130px;
     font-size: 60px;
   }
 
@@ -102,12 +102,13 @@ export const Home = styled.section`
 
   .right-section {
     margin-right: 240px;
-    margin-bottom: 220px;
+    margin-bottom: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
   .what-we-do {
     color: #12f7d6;
     font-family: "Poppins", sans-serif;
