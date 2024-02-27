@@ -31,8 +31,9 @@ export const Home = () => {
         </div>
 
         <p className="var">
-          <span className="const">const</span>{" "}
-          <span className="github">githubLink</span> =
+          <span className="const">const</span>
+          <span className="github"> githubLink</span>
+          <span> =</span>
           <a href="https://github.com/WedigZucolotto">
             <span className="link"> “https://github.com/WedigZucolotto”</span>
           </a>
