@@ -25,16 +25,18 @@ export const Home = () => {
         </p>
         <span className="rendered-tag second-p">&lt;/p&gt;</span>
 
-        <div className="lets-envolope">
-          <h2 className="lets-talk">Let's Talk</h2>
-          <img src={Envelope} alt="Envolope" className="envelope" />
-        </div>
+        <a href="contact">
+          <div className="lets-envolope">
+            <h2 className="lets-talk">Let's Talk</h2>
+            <img src={Envelope} alt="Envolope" className="envelope" />
+          </div>
+        </a>
 
         <p className="var">
           <span className="const">const</span>
           <span className="github"> githubLink</span>
           <span> =</span>
-          <a href="https://github.com/WedigZucolotto">
+          <a href="https://github.com/WedigZucolotto" target="_blank">
             <span className="link"> “https://github.com/WedigZucolotto”</span>
           </a>
         </p>
