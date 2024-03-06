@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Team = styled.div`
   display: flex;
   justify-content: space-between;
-  align-items: center;
   height: 100vh;
 
   .centered-section {
@@ -11,8 +10,9 @@ export const Team = styled.div`
     align-items: center;
     flex-direction: column;
     margin: auto;
-    position: relative;
-    top: -38px;
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 33%;
   }
 
   .centered-section > img {
@@ -61,7 +61,7 @@ export const Team = styled.div`
     flex-direction: column;
     position: relative;
     top: 15px;
-    left: -5px;
+    left: 10px;
   }
 
   .text-about-us > p {
@@ -71,5 +71,53 @@ export const Team = styled.div`
     font-size: 16px;
     margin: 15px;
     position: relative;
+  }
+
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 33%;
+  }
+
+  .left-section > h1 {
+    position: relative;
+    left: 23px;
+  }
+
+  .left-section > p {
+    left: 20px;
+  }
+
+  .name {
+    color: #12f7d6;
+    font-size: 40px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+  }
+
+  .description {
+    font-family: "Fira Code", monospace;
+    font-weight: 200;
+    font-size: 16px;
+    color: #abb2bf;
+    position: relative;
+    top: 20px;
+  }
+
+  .right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 33%;
+  }
+
+  .right-section > h1 {
+    display: flex;
+    width: 400px;
   }
 `;

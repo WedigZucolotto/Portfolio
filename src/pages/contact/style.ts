@@ -36,6 +36,7 @@ export const Contact = styled.div`
     color: #12f7d6;
     margin-top: 40px;
     padding: 15px 30px 15px 30px;
+    cursor: pointer;
     border: 2px solid #12f7d6;
     border-radius: 30px 0 30px 0;
     transition: all 0.3s ease-in-out;
@@ -72,6 +73,7 @@ export const Contact = styled.div`
     display: flex;
     justify-content: space-between;
     width: 100%;
+    cursor: pointer;
   }
 
   .phone p,

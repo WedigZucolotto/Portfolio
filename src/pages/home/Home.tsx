@@ -36,7 +36,7 @@ export const Home = () => {
           <span className="const">const</span>
           <span className="github"> githubLink</span>
           <span> =</span>
-          <a href="https://github.com/WedigZucolotto" target="_blank">
+          <a href="https://github.com/WedigZucolotto" target="_blank" rel="noopener noreferrer">
             <span className="link"> “https://github.com/WedigZucolotto”</span>
           </a>
         </p>
@@ -56,7 +56,7 @@ export const Home = () => {
         <Card
           image="imageCardSecond"
           title="Back-end Development"
-          content="With a meticulous focus on performance, security, and scalability, I architect and implement solutions that empower applications to thrive."
+          content="With a meticulous focus on performance, security, and scalability, we architect and implement solutions that empower applications to thrive."
         />
       </section>
     </S.Home>
