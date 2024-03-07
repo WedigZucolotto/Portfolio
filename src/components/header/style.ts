@@ -8,6 +8,10 @@ export const Header = styled.header`
   padding: 0 200px;
   margin-top: 15px;
 
+  img{
+    cursor: pointer;
+  }
+
   .logo-nav-container {
     display: flex;
     width: 100%;

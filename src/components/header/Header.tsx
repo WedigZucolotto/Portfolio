@@ -16,7 +16,12 @@ export const Header = () => {
   return (
     <S.Header>
       <div className="logo-nav-container">
-        <img src={Logo} alt="Logo" className="logo" />
+        <img
+          src={Logo}
+          alt="Logo"
+          className="logo"
+          onClick={() => handleClick("/", "Home")}
+        />
         <nav>
           <Button
             onClick={() => handleClick("/", "Home")}
