@@ -15,23 +15,36 @@ export const CardProject = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
     padding-top: 8px;
     padding-bottom: 8px;
   }
 
   .technologies > p {
+    display: flex;
+    align-items: center;
     width: 335px;
+    height: 30px;
   }
 
   .desc {
     display: flex;
+    align-items: flex-start;
+    justify-content: center;
     flex-direction: column;
-    border-top: 1px solid #ffffff;
+    gap: 15px;
+    margin-left: 20px;
     height: 153px;
   }
 
   .desc > h2 {
     color: #ffffff;
-    font-weight: 400;
+    font-weight: 500;
+  }
+
+  .button-projects{
+    display: flex;
+    gap: 20px;
   }
 `;

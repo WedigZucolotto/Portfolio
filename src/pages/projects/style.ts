@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Projects = styled.div`
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 110vh;
 
   .title {
     display: flex;
@@ -28,14 +28,22 @@ export const Projects = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    flex-direction: column;
+    margin-top: 40px;
   }
 
   .complete-apps > h2 {
+    margin-bottom: 35px;
+    margin-left: -470px;
     font-family: "Fira Code", monospace;
     font-weight: 400;
     font-size: 32px;
     color: white;
+  }
+
+  .cards{
+    display: flex;
+    gap: 15px;
   }
 
   .hashtag {

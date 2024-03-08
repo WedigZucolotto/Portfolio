@@ -4,7 +4,7 @@ export const Home = styled.section`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80.5vh;
+  height: 80.7vh;
 
   .left-section {
     color: white;

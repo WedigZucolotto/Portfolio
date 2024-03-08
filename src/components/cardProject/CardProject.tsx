@@ -1,11 +1,13 @@
 import * as S from "./style";
-import barberTechScreen from "../../img/projects/barbertechscreen.svg";
+import barberTechScreen from "../../img/projects/barberTechScreen.png";
+import portfolioScreen from "../../img/projects/portfolioScreen.png";
 import { ButtonProjects } from "../buttonprojects/ButtonProjects";
 
-type ImageTypes = "barberTechScreen";
+type ImageTypes = "barberTechScreen" | "portfolioScreen";
 
 const types = {
   barberTechScreen: barberTechScreen,
+  portfolioScreen: portfolioScreen,
 };
 
 interface ButtonTypes {
@@ -40,7 +42,7 @@ export const CardProject = ({
         <h2>{title}</h2>
         <p>{description}</p>
 
-        <div className="ButtonProjects">
+        <div className="button-projects">
           {buttons.map((button) => (
             <ButtonProjects buttonTitle={button.buttonTitle} src={button.src} />
           ))}
